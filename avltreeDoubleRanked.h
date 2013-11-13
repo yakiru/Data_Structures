@@ -28,16 +28,18 @@ namespace wet2 {
         void rollLL(AVLTreeDoubleRankedNode* ptrNode);
         void rollLR(AVLTreeDoubleRankedNode* ptrNode);
         void updateCountersNDepths(AVLTreeDoubleRankedNode* ptrNode);
-		void removeNode(AVLTreeDoubleRankedNode* pNode);
-		//void addNode(int nodeKey);
-		AVLTreeDoubleRankedNode* find(int key);
-		int lowestMutualAncestor(int node1Key,int node2Key);//returns father node key
-		void deleteTree(AVLTreeDoubleRankedNode* node);
+	void removeNode(AVLTreeDoubleRankedNode* pNode);
+	//void addNode(int nodeKey);
+	AVLTreeDoubleRankedNode* find(int key);
+	int lowestMutualAncestor(int node1Key,int node2Key);//returns father node key
+	void deleteTree(AVLTreeDoubleRankedNode* node);
 
         //variables
         AVLTreeDoubleRankedNode* root;
-		//int invalidKey;
-		AVLTreeDoubleRanked (); //no nodes with mainCounter=0 
+	//int invalidKey;
+	
+	//CLASS main functions
+	AVLTreeDoubleRanked (); //no nodes with mainCounter=0 
         ~AVLTreeDoubleRanked();
         AVLTreeDoubleRankedNode* addNode(int nodeKey,int accountsNoORBankID,int balance);
         AVLTreeDoubleRankedNode* findSmallerNodeByKey(AVLTreeDoubleRankedNode* node);
