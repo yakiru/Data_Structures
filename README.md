@@ -1,6 +1,6 @@
 Data_Structures
 ===============
-2 data sturctures impletmented for progamming assignments in Data Structures 1 course (234218)
+2 data sturctures impletmented for progamming assignments in <a href="http://webcourse.cs.technion.ac.il/234218/Winter2013-2014/en/news.html"> Data Structures 1 course (234218)</a>
 
 Ranked <a href="http://en.wikipedia.org/wiki/AVL_tree">AVL tree</a>:
 
