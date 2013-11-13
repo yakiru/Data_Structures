@@ -6,7 +6,6 @@ Ranked AVL tree : http://en.wikipedia.org/wiki/AVL_tree
 
 Balanced binary tree based on integer key value. Insertion, deletion, balancing (using rolls)
 and searching implemented.
-
 In addition, each node has a rank to specify weight (iteration in the DS) and the weight of 
 each node's child subtree is also maintained in node.
 
