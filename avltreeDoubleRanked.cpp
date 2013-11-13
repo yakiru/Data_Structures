@@ -348,7 +348,7 @@ Public functions
 			}
 			else return NULL;
 	}
-	int AVLTreeDoubleRanked::lowestMutualAncestor(int node1Key,int node2Key){
+	int AVLTreeDoubleRanked::lowestMutualAncestor(int node1Key,int node2Key){ //finding root of minimum subtree of 2 nodes
 		AVLTreeDoubleRankedNode* ptrTempNode;
 		ptrTempNode=root;
 		while (1){ //loop broken by inside terms
