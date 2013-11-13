@@ -1,6 +1,6 @@
 Data_Structures
 ===============
-2 data sturctures impletmented for progamming assignments:
+2 data sturctures impletmented for progamming assignments in Data Structures 1 course (234218)
 
 Ranked AVL tree : http://en.wikipedia.org/wiki/AVL_tree
 
