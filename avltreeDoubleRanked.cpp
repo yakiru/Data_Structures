@@ -78,7 +78,7 @@ namespace wet2 {
 		ptrNodeSon = ptrNode->rightSon;
 		AVLTreeDoubleRankedNode* ptrNodeGrandSon;
 		ptrNodeGrandSon = ptrNodeSon->leftSon;
-		//every node connection is made twice: father.son=son and son.father=father
+		//every node connection is made twice: father.Xson=son and son.father=father
 		if (ptrNode==root){
 			ptrNodeGrandSon->father=NULL;
 			root=ptrNodeGrandSon;
@@ -156,7 +156,7 @@ namespace wet2 {
 		ptrNodeSon = ptrNode->leftSon;
 		AVLTreeDoubleRankedNode* ptrNodeGrandSon;
 		ptrNodeGrandSon = ptrNodeSon->rightSon;
-		//every node connection is made twice: father.son=son and son.father=father
+		//every node connection is made twice: father.Xson=son and son.father=father
 		if (ptrNode==root){
 			ptrNodeGrandSon->father=NULL;
 			root=ptrNodeGrandSon;
