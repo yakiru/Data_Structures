@@ -152,6 +152,7 @@ int heapMinMax::siftDown(int index){
 					switchNodes(&nodeArray[index],&nodeArray[biggestIndex]);
 				}
 			}
+			//TODO minimum heap
 			index--;
 		}
 		return 0;
@@ -166,6 +167,7 @@ int heapMinMax::siftDown(int index){
 				}
 				else break;
 			}
+			//TODO minimum heap
 		}
 		return index;
 	}
@@ -182,6 +184,7 @@ int heapMinMax::siftUp(int index){
 			}
 			else return index;
 		}
+		//TODO minimum heap
 	}
 	return index;
 }
