@@ -12,7 +12,7 @@ each node's child subtree is also maintained in node.
 A function to sum the number of nodes (and their weight/iterations) is also implemented.
 Each node has extra information specific to the task it was created for.
 
-<b href="http://en.wikipedia.org/wiki/Binary_heap">Binary heap</a> (Min/Max):
+<b href="http://en.wikipedia.org/wiki/Binary_heap">Binary heap</b> (Min/Max):
 
 Binary heap implemented using an array and maintaining the smaller/largest node (depending on its type
 declared upon creation) in the top of the heap (first node). Only maximum heap was needed for the task,
